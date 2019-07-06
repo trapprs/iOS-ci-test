@@ -2,4 +2,4 @@ osx_image: xcode10.1
 language: swift
 script: 
     - cd ios-ci-tests
-    - xcodebuild -project ios-ci-tests.xcodeproj -scheme 'ios-ci-tests' clean archive -configuration release -sdk iphoneos -archivePath ios-ci-tests.xcarchive | xcpretty -c
+    - xcodebuild -project ios-ci-tests.xcodeproj -scheme 'ios-ci-testsTests' clean archive -configuration release -sdk iphoneos -archivePath ios-ci-tests.xcarchive | xcpretty -c
