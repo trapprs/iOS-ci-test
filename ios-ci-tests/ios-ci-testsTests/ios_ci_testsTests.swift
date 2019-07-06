@@ -16,7 +16,7 @@ class ios_ci_testsTests: XCTestCase {
     }
 
     override func tearDown() {
-       XCTAssert(true)
+       XCTAssert(true) 
     }
 
     func testExample() {
